@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">MadIt20246914</string>
+    <string name="btnsignin">
+       click here to navigate to sign in page</string>
+    <string name="txt_loginLink">Not a user ?</string>
+    <string name="txt_loginScreen">Log in here !!!!</string>
+    <string name="btn_checke">Check your eligibility</string>
+    <string name="btn_vaccine">Vaccination apponment</string>
+    <string name="btn_pcr">Pcr appoinment</string>
+    <string name="btn_appoinment">View appoinment</string>
+    <string name="btn_reviews">View reviews</string>
+    <string name="btn_user">Add details</string>
+    <string name="Sign_out">Sign out</string>
+    <string name="txt_discription">
+        Welcome, You can register your family here to apply for vaccination and pcr tests.
+         Just click the add details button and fill the family details.  But even if you are a
+        single person registering it does no matter follow the same procedure.
+
+    </string>
+    <string name="edt_age">Enter age</string>
+    <string name="edt_num">Enter number</string>
+    <string name="Txt_add">Please enter your details here , One member at a time</string>
+    <string name="btn_addmember">Add member</string>
+    <string name="btn_updatemember">Update member</string>
+    <string name="btn_deletemember">Delete member</string>
+    <string name="btn_selectmember">Select member</string>
+    <string name="txt_elg">
+        Since the government is constantly updating the types of vaccines that different age groups should
+        take because of new experiments happening all around the word , We keep you updated what
+        for vaccine is suitable for your age.
+    </string>
+
+    <string name="email">Enter your email</string>
+    <string name="password">Enter password</string>
+    <string name="btn_login">Login</string>
+    <string name="username">Enter an email address</string>
+    <string name="password1">Enter a password</string>
+    <string name="sign">Sign up</string>
+    <string name="btn_signup">Click here to navigate to signup page</string>
+    <string name="txt_unpa">Warning - Please remember your email and password.</string>
+    <string name="txt_sign">Signup now</string>
+    <string name="txt_fogotpassword">Foget password ?
+            contact XXXXX , we will send you a link</string>
+    <string name="edt_name">Enter name</string>
+    <string name="edt_nic">Enter nic</string>
+    <string name="btn_checkeligibility">Go to calculation</string>
+    <string name="btn_calculation">Get result</string>
+    <string name="ed_toast"> Loading.... </string>
+    <string name="name1">Enter name</string>
+    <string name="age1">Enter age</string>
+    <string name="txt_answer">Your results will apper here</string>
+
+
+</resources>

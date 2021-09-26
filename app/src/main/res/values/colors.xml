@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="signinbtnC">#99FF223C</color>
+    <color name="loginlinkbtnC">#00367CF4</color>
+    <color name="signupformColor">#51000000</color>
+    <color name="cl1">#1DFFFFFF</color>
+    <color name="c2">#17C2BBBE</color>
+    <color name="rb">#F72869</color>
+    <color name="c3">#C1F5076F</color>
+    <color name="c4" />
+    <color name="c5">#FCEE3056</color>
+    <color name="c6">#F7E6293F</color>
+    <color name="c7">#F7F02342</color>
+    <color name="c12">#43F7F1F1</color>
+    <color name="c13">#ED1F1D1D</color>
+    <color name="c14">#16F568</color>
+    <color name="ans">#27AA10</color>
+    <color name="loadingColor">#8371CE2F</color>
+</resources>

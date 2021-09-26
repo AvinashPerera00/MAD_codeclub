@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/mad"
+    android:layout_height="match_parent"
+
+    tools:context=".HomeActivity">
+
+    <View
+        android:id="@+id/btn_view"
+        android:layout_width="277dp"
+        android:layout_height="356dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_discription" />
+
+    <Button
+        android:id="@+id/btn_vaccine"
+        android:layout_width="258dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/round_btn1"
+        android:text="@string/btn_vaccine"
+        app:layout_constraintEnd_toEndOf="@+id/btn_view"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/btn_view"
+        app:layout_constraintTop_toBottomOf="@+id/btn_checke" />
+
+    <Button
+        android:id="@+id/btn_pcr"
+        android:layout_width="263dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_btn1"
+        android:text="@string/btn_pcr"
+        app:layout_constraintEnd_toEndOf="@+id/btn_view"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="@+id/btn_view"
+        app:layout_constraintTop_toBottomOf="@+id/btn_vaccine" />
+
+    <Button
+        android:id="@+id/btn_appoinment"
+        android:layout_width="259dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/round_btn1"
+        android:text="@string/btn_appoinment"
+        app:layout_constraintEnd_toEndOf="@+id/btn_view"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="@+id/btn_view"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pcr" />
+
+    <Button
+        android:id="@+id/btn_checke"
+        android:layout_width="258dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+
+        android:background="@drawable/round_btn1"
+        android:text="@string/btn_checke"
+        app:layout_constraintEnd_toEndOf="@+id/btn_view"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="@+id/btn_view"
+        app:layout_constraintTop_toTopOf="@+id/btn_view" />
+
+    <Button
+        android:id="@+id/btn_reviews"
+        android:layout_width="265dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/round_btn1"
+        android:text="@string/btn_reviews"
+        app:layout_constraintEnd_toEndOf="@+id/btn_view"
+        app:layout_constraintStart_toStartOf="@+id/btn_view"
+        app:layout_constraintTop_toTopOf="@+id/btn_view" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="85dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pfphoto" />
+
+    <Button
+        android:id="@+id/btn_user"
+        android:layout_width="109dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@color/loginlinkbtnC"
+        android:fontFamily="@font/acme"
+        android:text="@string/btn_user"
+        android:textColor="@color/cardview_light_background"
+        app:backgroundTint="@color/loginlinkbtnC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/Sign_out"
+        android:layout_width="105dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/c5"
+        android:text="@string/Sign_out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_discription"
+        android:layout_width="366dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="@font/belleza"
+        android:text="@string/txt_discription"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

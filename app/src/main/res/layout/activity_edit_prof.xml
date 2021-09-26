@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mad"
+    tools:context=".EditProf">
+
+  <EditText
+      android:id="@+id/edt_name"
+      android:layout_width="375dp"
+      android:layout_height="44dp"
+      android:layout_marginTop="244dp"
+      android:background="@color/c12"
+      android:ems="10"
+      android:hint="@string/edt_name"
+      android:inputType="textPersonName"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.444"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/Txt_add" />
+
+  <EditText
+      android:id="@+id/edt_nic"
+      android:layout_width="375dp"
+      android:layout_height="44dp"
+      android:layout_marginTop="32dp"
+      android:background="@color/c12"
+      android:ems="10"
+      android:hint="@string/edt_nic"
+      android:inputType="textPersonName"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.444"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/edt_name" />
+
+  <Button
+      android:id="@+id/btn_updatemember"
+      android:layout_width="158dp"
+      android:layout_height="49dp"
+      android:layout_marginTop="48dp"
+      android:onClick="updateFam"
+      android:background="@drawable/round_type4"
+      android:text="@string/btn_updatemember"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toEndOf="@+id/btn_addmember"
+      app:layout_constraintTop_toBottomOf="@+id/edt_nic" />
+
+  <Button
+      android:id="@+id/btn_deletemember"
+      android:layout_width="158dp"
+      android:layout_height="49dp"
+      android:layout_marginTop="42dp"
+      android:background="@drawable/round_type4"
+      android:onClick="deleteUser"
+      android:text="@string/btn_deletemember"
+      app:layout_constraintEnd_toStartOf="@+id/btn_selectmember"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btn_addmember" />
+
+  <Button
+      android:id="@+id/btn_selectmember"
+      android:layout_width="158dp"
+      android:layout_height="49dp"
+      android:layout_marginTop="42dp"
+      android:background="@drawable/round_type4"
+      android:onClick="viewFam"
+      android:text="@string/btn_selectmember"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toEndOf="@+id/btn_deletemember"
+      app:layout_constraintTop_toBottomOf="@+id/btn_updatemember" />
+
+  <Button
+      android:id="@+id/btn_addmember"
+      android:layout_width="158dp"
+      android:layout_height="49dp"
+      android:layout_marginTop="48dp"
+      android:background="@drawable/round_type4"
+      android:onClick="saveFam"
+      android:text="@string/btn_addmember"
+      app:layout_constraintEnd_toStartOf="@+id/btn_updatemember"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/edt_nic" />
+
+  <TextView
+      android:id="@+id/Txt_add"
+      android:layout_width="371dp"
+      android:layout_height="55dp"
+      android:layout_marginTop="24dp"
+      android:fontFamily="@font/acme"
+      android:text="@string/Txt_add"
+      android:textColor="@color/white"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.6"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
